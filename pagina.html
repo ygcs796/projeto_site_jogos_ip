@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="game-container"></main>
+
+    <script src="games.js"></script>
+    
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const gameId = params.get("id"); // pega o ?id=jogo1 da URL
+        const game = games[gameId];
+
+        if (game) {
+            document.getElementById("game-container").innerHTML = `
+            <h1>${game.nome}</h1>
+            <img src="${game.imagem}" alt="Imagem do jogo">
+            <section>
+                <h2>Sobre o jogo</h2>
+                <p>${game.descricao}</p>
+            </section>
+            <section>
+                <h2>Como jogar</h2>
+                <p>${game.tutorial}</p>
+            </section>
+            <a href="${game.download}" class="btn">Baixar jogo</a>
+            `;
+        }
+    </script>
+</body>
+</html>

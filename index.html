@@ -1,41 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/8d7727039d.js" crossorigin="anonymous"></script>
-    <title>Jogos de IP - CIn UFPE</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Jogos da Turma</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <img src="assets/images/logomarca_cin_ufpe_format_vertical.png" alt="" id="logomarcacinufpe">
-    
-    <h1>JOGOS DO COMPONENTE DE "INTRODUÇÃO À PROGRAMAÇÃO"</h1>
-
-    <div class="conteudo"></div>
-
-    <h2>PYCHAVES</h2>
-
-    <p>
-        Esse jogo foi criado por 5 alunos da turma de Engenharia da Computação 2025.1: 
-        Alvaro Alexandre, João Gabriel, Luan Gabriel, Mel Zion, Tiago do Nascimento e Yuri Gabryel.
-    </p>
-
-    <h3>TUTORIAL</h3>
-
-    <p>
-        Tô pensando em qual texto colocar aqui
-    </p>
-
-    <img src="assets/images/tela_principal_pychaves.png" alt="" id="tela_principal_pychaves">
-
-    <div class="play-download-field">
-        
-        <p>
-            <a href="http://">Jogar</a> <i class="fa-solid fa-gamepad"></i> ou <a href="http://">Baixar</a><i class="fa-solid fa-download"></i>
-        </p>
-        
+  <div class="cabecalho">
+    <img src="assets/images/logomarca_cin_ufpe_format_vertical.png" alt="" id="logomarcacin">
+    <div class="titulo">
+      <h1>Jogos da Turma 🎮</h1>
+      <p>Escolha um jogo para jogar no navegador ou baixar para o seu computador!</p>
     </div>
+    <!-- Caixa de busca -->
+    <input type="text" id="busca" placeholder="🔎 Buscar jogo...">
+  </div>
+  
+  <!-- Card 1 -->
+  <div class="card">
+    <h2>🐍 Snake Game</h2>
+    <img src="assets/images/snake.png" alt="Snake Game" width="200">
+    <br>
+    <a href="pagina.html?id=jogo1">Ver mais</a>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <h2>🚗 Corrida</h2>
+    <img src="assets/images/car.png" alt="Corrida" width="200">
+    <br>
+    <a href="pagina.html?id=jogo2">Ver mais</a>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <h2>👾 Space Invaders</h2>
+    <img src="assets/images/space.png" alt="Space Invaders" width="200">
+    <br>
+    <a href="space.exe">Ver mais</a>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <h2>Pychaves</h2>
+    <img src="assets/images/tela_principal_pychaves.png" alt="Space Invaders" width="200">
+    <br>
+    <a href="pagina.html?id=pychaves">Ver mais</a>
+  </div>
+  
+  <script src="script.js"></script>
 </body>
 </html>

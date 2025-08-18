@@ -1,9 +1,83 @@
-
-
-#logomarcacinufpe {
-    width: 20%;
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
-#tela_principal_pychaves {
-    width: 70%;
+/* Estilo geral da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 110px;
+  padding: 30px 0;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 8px rgba(0,0,0,0.4);
+  background-color: #ff3e3e;
+}
+
+#logomarcacin {
+  width: 20%;
+  position: absolute;
+  /*top: 20px; */
+  left: 40px; 
+}
+
+.titulo {
+  width: 30%;
+  color: #f0f2f5;
+}
+
+/* Título principal */
+h1 {
+  margin-bottom: 10px;
+}
+
+#busca {
+  position: absolute;
+  right: 20px;
+  width: 18%;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Links transformados em botões */
+a {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: green;
+  transition: 0.5s;
+}
+
+/* Estilo dos cards */
+.card {
+  display: inline-block;
+  width: 250px;
+  background: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
 }

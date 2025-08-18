@@ -1,0 +1,86 @@
+/* Estilo global da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #E0E1E0; /* Cinza Claro */
+  color: #231F20; /* Preto */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Container principal do jogo */
+#game-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #FFFFFF; /* Branco */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Título do jogo */
+#game-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black; /* Vermelho */
+}
+
+/* Imagem do jogo */
+#game-container img {
+  display: block;
+  margin: 0 auto 30px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  transition: transform 0.3s;
+}
+
+#game-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Seções de descrição e tutorial */
+#game-container section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #ff3e3e; /* Vermelho Escuro */
+  border-radius: 10px;
+}
+
+#game-container section h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #FFFFFF; /* Cinza Claro */
+}
+
+/* Texto das seções */
+#game-container section p {
+  font-size: 1.1em;
+  color: #FFFFFF; /* Branco */
+}
+
+/* Botão de download */
+#game-container .btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FFFFFF; /* Branco */
+  background-color: #3498db; /* Vermelho */
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#game-container .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: 0.5s;
+  background-color: green;
+}
