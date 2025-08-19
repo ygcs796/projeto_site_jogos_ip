@@ -46,11 +46,12 @@ body {
   padding: 20px;
   background-color: #ff3e3e; /* Vermelho Escuro */
   border-radius: 10px;
+  text-align: justify;
 }
 
 #game-container section h2 {
   font-size: 1.8em;
-  margin-bottom: 15px;
+  margin: 0px;
   color: #FFFFFF; /* Cinza Claro */
 }
 
@@ -58,10 +59,24 @@ body {
 #game-container section p {
   font-size: 1.1em;
   color: #FFFFFF; /* Branco */
+  width: 22em;
+}
+
+#game-container section #lista-ordenada {
+  display: flex;
+}
+
+#game-container section #segunda-parte-lista {
+  margin-left: 4em;
 }
 
 #game-container .buttons-field {
   display: flex;
+}
+
+#game-container .buttons-field a {
+  color: white;  
+  text-decoration: none;
 }
 
 /* Botão de download */
@@ -72,7 +87,7 @@ body {
   margin: 0 auto;
   padding: 15px;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
   color: #FFFFFF; /* Branco */
   background-color: #3498db; /* Vermelho */
@@ -91,10 +106,11 @@ body {
 }
 
 #game-container .github-btn {
-  display: block;
+  display: flex;
   width: 200px;
   margin: 0 auto;
   padding: 15px;
+  align-items: center;
   text-align: center;
   font-size: 1em;
   font-weight: bold;
@@ -102,7 +118,6 @@ body {
   background-color: #3498db; /* Vermelho */
   border: none;
   border-radius: 50px;
-  text-decoration: none;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -114,6 +129,8 @@ body {
   background-color: #171515;
 }
 
-i {
+#game-container .github-btn i {
   margin-right: 10px;
+  font-size: 2em;
+  width: 50px;
 }

@@ -29,9 +29,45 @@
                 <h2>Como jogar</h2>
                 <p>${game.tutorial}</p>
             </section>
+            <section>
+                <h2>Como baixar o jogo</h2>
+                <div id='lista-ordenada'>
+                    <div>
+                        <p>
+                            1. Aperte no botão "Baixar jogo" abaixo
+                        </p>
+                        <p>
+                            2. Após apertar, o site pedirá para que você salve em alguma pasta do seu computador o arquivo '.zip' da pasta do jogo. Escolha uma pasta no seu computador para guardar esse arquivo.
+                        </p>
+                        <p>
+                            3. Após isso, espere um tempo até que o seu navegador baixe o arquivo '.exe' na pasta que você escolheu.    
+                        </p>
+                    </div>
+                    <div id='segunda-parte-lista'>
+                            <p>
+                                4. Após o arquivo ser baixado, descompacte ele.
+                            </p>
+                        <p>
+                            5. Depois de descompactar, surgirá uma pasta com o mesmo nome do arquivo '.zip'. Abra essa pasta. Depois de abrir, haverá outra pasta com o mesmo nome. Abra ela também.
+                        </p>
+                        <p>
+                            6. Após isso, abra o arquivo de tipo "aplicativo" ou algo parecido.    
+                        </p>
+                        <p>
+                            7. Aproveite o jogo! 😊    
+                        </p>
+                    </div>
+                </div>
+            </section>
             <div class="buttons-field">
-                <a href="${game.download}" class="download-btn"><i class="fa-solid fa-download"></i>Baixar jogo</a>
-                <a href="${game.link_github}" class="github-btn"><i class="fa-brands fa-github"></i>Acesse o repositório do projeto</a>
+                <div class="download-btn">
+                    <i class="fa-solid fa-download"></i>
+                    <a href="${game.download}">Baixar jogo</a>
+                </div>
+                <div class="github-btn">
+                    <i class="fa-brands fa-github"></i>
+                    <a href="${game.link_github}" >Acesse o repositório do projeto</a>
+                </div>
             </div>
             `;
         }
