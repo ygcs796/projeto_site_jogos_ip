@@ -40,6 +40,10 @@ body {
   transform: scale(1.05);
 }
 
+#game-container .info-and-play-section {
+  display: flex;
+}
+
 /* Seções de descrição e tutorial */
 #game-container section {
   margin-bottom: 30px;
@@ -47,6 +51,10 @@ body {
   background-color: #ff3e3e; /* Vermelho Escuro */
   border-radius: 10px;
   text-align: justify;
+}
+
+#game-container #how-to-play-section {
+  margin-left: 45px;
 }
 
 #game-container section h2 {
