@@ -18,6 +18,7 @@ const games = {
     imagem: "assets/images/tela_principal_pychaves.png",
     descricao: "{texto}",
     tutorial: "Use as setas para mover o chaves.",
-    download: "{arquivo de download}"
+    download: "jogos_zip/pychaves.zip",
+    link_github: "https://github.com/mzckawa/pychaves"
   }
 };
