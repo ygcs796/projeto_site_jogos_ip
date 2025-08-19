@@ -18,7 +18,7 @@ const games = {
     imagem: "assets/images/tela_principal_pychaves.png",
     descricao: "Esse jogo foi criado pelos estudantes Alvaro Alexandre, João Gabriel, Luan Gabriel, Mel Zion, Tiago do Nascimento e Yuri Gabryel.",
     tutorial: "Use as setas para mover o chaves.",
-    download: "jogos_zip/pychaves.zip",
+    download: "https://github.com/ygcs796/projeto_site_jogos_ip/releases/download/v1.0/pychaves.zip",
     link_github: "https://github.com/mzckawa/pychaves"
   }
 };
