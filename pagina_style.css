@@ -95,7 +95,7 @@ body {
   margin: 0 auto;
   padding: 15px;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-weight: bold;
   color: #FFFFFF; /* Branco */
   background-color: #3498db; /* Vermelho */
@@ -111,6 +111,10 @@ body {
   box-shadow: 0 10px 20px rgba(0,0,0,0.4);
   transition: 0.5s;
   background-color: green;
+}
+
+#game-container .download-btn i {
+  margin-right: 05px;
 }
 
 #game-container .github-btn {
