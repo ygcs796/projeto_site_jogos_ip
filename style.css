@@ -14,6 +14,7 @@ body {
   position: relative;
 }
 
+/* editando os elementos do 'cabeçalho' da pagina */
 .cabecalho {
   display: flex;
   align-items: center;
@@ -26,24 +27,23 @@ body {
   background-color: #ff3e3e;
 }
 
-#logomarcacin {
+.cabecalho #logomarcacin {
   width: 20%;
   position: absolute;
-  /*top: 20px; */
   left: 40px; 
 }
 
-.titulo {
+.cabecalho #titulo {
   width: 30%;
   color: #f0f2f5;
 }
 
 /* Título principal */
-h1 {
+.cabecalho #titulo h1 {
   margin-bottom: 10px;
 }
 
-#busca {
+.cabecalho #busca {
   position: absolute;
   right: 20px;
   width: 18%;
@@ -54,8 +54,31 @@ h1 {
   font-size: 16px;
 }
 
+.divisor {
+  background-color: #ff3e3e;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 35em;
+  margin-right: 35em;
+  padding: 5px;
+  font-size: 23px;
+  color: #f0f2f5;
+}
+
+/* Estilo dos cards */
+.card {
+  display: inline-block;
+  width: 250px;
+  background: white;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid #ff3e3e;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
 /* Links transformados em botões */
-a {
+.card a {
   display: inline-block;
   margin: 8px;
   padding: 10px 20px;
@@ -66,22 +89,11 @@ a {
   transition: background-color 0.3s ease;
 }
 
-a:hover {
+.card a:hover {
   background-color: green;
   transition: 0.5s;
 }
 
-/* Estilo dos cards */
-.card {
-  display: inline-block;
-  width: 250px;
-  background: white;
-  margin: 15px;
-  padding: 15px;
-  border-radius: 12px;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-}
-
-i {
+.card a i {
   margin-right: 10px;
 }
