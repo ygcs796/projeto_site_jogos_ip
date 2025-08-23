@@ -6,5 +6,13 @@
     "tutorial": "Use as setas para mover o chaves.",
     "download": "https://github.com/ygcs796/projeto_site_jogos_ip/releases/download/v1.0/pychaves.zip",
     "link_github": "https://github.com/mzckawa/pychaves"
+  },
+  "Byte in Space": {
+    "nome": "Byte in Space",
+    "imagem": "tela_principal_byte-in-space.jpeg",
+    "descricao": "Esse jogo foi criado para disciplina Introdução à Programação oferecida pelo Cin-UFPE (Centro de Informática da Universidade Federal de Pernambuco),  pelos estudantes: Gustavo Charamba, Lucas Eduardo Brito, Luiz Gabriel Santana, Luiz Miguel de Souza, Miquéias Santos e Rafael Silva.",
+    "tutorial": "Use [↑]/[W], [↓]/[S], [←]/[A], [→]/[D] para mover a nave do Byte. [Z] para atirar. Pegue os colecionáveis para obter poderes temporários. Marque pontos acertandos os gatos. Não morra!",
+    "download": "https://github.com/luizmiguelbarbosa/byte_in_space/releases/download/Vers%C3%A3oEntregue/Byte.in.Space.zip",
+    "link_github": "https://github.com/luizmiguelbarbosa/byte_in_space.git"
   }
 }
