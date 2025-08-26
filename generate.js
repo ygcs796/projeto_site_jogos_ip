@@ -32,27 +32,24 @@ for (const id in games) {
             <div id='lista-ordenada'>
                 <div>
                     <p>
-                        1. Aperte no botão "Baixar jogo" abaixo
+                        <strong>1.</strong> Clique no botão "Baixar jogo" abaixo
                     </p>
                     <p>
-                        2. Após apertar, o site pedirá para que você salve em alguma pasta do seu computador o arquivo '.zip' da pasta do jogo. Escolha uma pasta no seu computador para guardar esse arquivo.
+                        <strong>2.</strong> Após clicar, seu navegador irá baixar o arquivo <strong>.zip</strong> do jogo. Salve-o em alguma pasta do seu computador.
                     </p>
                     <p>
-                        3. Após isso, espere um tempo até que o seu navegador baixe o arquivo '.exe' na pasta que você escolheu.    
+                        <strong>3.</strong> Depois de baixar, encontre o arquivo <strong>.zip</strong>, clique com o botão direito e escolha "Extrair tudo..." para descompactar.
                     </p>
                 </div>
                 <div id='segunda-parte-lista'>
-                        <p>
-                            4. Após o arquivo ser baixado, descompacte ele.
-                        </p>
                     <p>
-                        5. Depois de descompactar, surgirá uma pasta com o mesmo nome do arquivo '.zip'. Abra essa pasta. Depois de abrir, haverá outra pasta com o mesmo nome. Abra ela também.
+                        <strong>4.</strong> Uma nova pasta será criada. Abra a pasta e depois a subpasta com o mesmo nome do seu arquivo.
                     </p>
                     <p>
-                        6. Após isso, abra o arquivo de tipo "aplicativo" ou algo parecido.    
+                        <strong>5.</strong> Procure por "main.exe" (ou um arquivo de tipo "aplicativo") e dê um duplo clique para iniciar.
                     </p>
                     <p>
-                        7. Aproveite o jogo! 😊    
+                        <strong>6.</strong> Aproveite o jogo! 😊
                     </p>
                 </div>
             </div>
