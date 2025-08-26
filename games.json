@@ -18,7 +18,7 @@
   "IPocalipse: CIn-vivors": {
     "nome": "IPocalipse: CIn-vivors",
     "imagem": "assets/images/cin-vivors.png",
-    "descricao": "Um jogo de ação e sobrevivência criado para a disciplina de Introdução à Programação do CIn-UFPE. Desenvolvido por: Rafael Barbosa, Eric Santiago, Caio Amarante, Pedro Albuquerque, Kraus Junior e Álvaro Lima.",
+    "descricao": "IPocalipse: CIn-vivors é um jogo de ação e sobrevivência no estilo bullet heaven, criado para a disciplina de Introdução à Programação oferecida pelo Cin-UFPE. Nele, um estudante deve lutar contra hordas de bugs, erros e desafios do semestre para sobreviver até a prova final. Desenvolvido por: Rafael Barbosa, Eric Santiago, Caio Amarante, Pedro Albuquerque, Kraus Junior e Álvaro Lima.",
     "tutorial": "Use [W], [A], [S], [D] para mover o personagem. Os ataques são automáticos! Sobreviva às hordas de bugs e colete experiência para escolher novos upgrades e ficar mais forte.",
     "download": "https://github.com/rafaelvlt/ip-projeto-final/releases/download/versoes/ipocalipse-cin-vivors-1.0.zip",
     "link_github": "https://github.com/rafaelvlt/ip-projeto-final"
