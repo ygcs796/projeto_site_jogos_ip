@@ -22,5 +22,13 @@
     "tutorial": "Use [W], [A], [S], [D] para mover o personagem. Os ataques são automáticos! Sobreviva às hordas de bugs e colete experiência para escolher novos upgrades e ficar mais forte.",
     "download": "https://github.com/rafaelvlt/ip-projeto-final/releases/download/versoes/ipocalipse-cin-vivors-1.0.zip",
     "link_github": "https://github.com/rafaelvlt/ip-projeto-final"
+  },
+  "MAD_MUMIA": {
+    "nome": "MAD MUMIA",
+    "imagem": "assets/images/imagem_menu_MADMUMIA.jpg",
+    "descricao": "MAD MUMIA é um jogo sobrevivência no deserto, criado por um grupo de calouros de ciência da computação no período de 2025.1. Nele, o jogador principal precisa encontrar pilhas no deserto para conseguir ligar o rádio de pedir ajuda. Porém, ao mesmo tempo, ele é perseguido por criaturas místicas, que despertaram de seus túmulos: as Múmias. Felizmente, nosso protagonista é um soldado treinado para se defender, e sempre anda com sua arma de confiança. <strong>Todos os responsáveis pelo projeto estão no github.</strong>",
+    "tutorial": "Use [W], [A], [S], [D] para mover o personagem. Controle a direção da mira e atire com o botão esquerdo do mouse. Corações para regenerar a vida, munições para recarregar a arma e as pilhas do rádio estarão espalhadas pelo mapa.",
+    "download": "https://github.com/SSerbS/MAD-MUMIA/releases/download/V2.1/MAD_MUMIA.zip",
+    "link_github": "https://github.com/SSerbS/MAD-MUMIA.git"
   }
 }
