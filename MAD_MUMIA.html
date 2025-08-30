@@ -9,7 +9,7 @@
 </head>
 <body>
     <main id="game-container">
-        <h1>MAD MUMIA</h1>
+        <h1 class="name_game">MAD MUMIA</h1>
         <img src="assets/images/imagem_menu_MADMUMIA.jpg" alt="Imagem do jogo">
         <div class='info-and-play-section'>
             <section>
@@ -21,7 +21,9 @@
                 <p>Use [W], [A], [S], [D] para mover o personagem. Controle a direção da mira e atire com o botão esquerdo do mouse. Corações para regenerar a vida, munições para recarregar a arma e as pilhas do rádio estarão espalhadas pelo mapa.</p>
             </section>
         </div>
-        <section>
+        <div id="tela_escura"></div>
+        <section id="pop_up">
+            <p class="x">X</p>
             <h2>Como baixar o jogo</h2>
             <div id='lista-ordenada'>
                 <div>
@@ -49,16 +51,21 @@
             </div>
         </section>
         <div class="buttons-field">
-            <div class="download-btn">
-                <i class="fa-solid fa-download"></i>
-                <a href="https://github.com/SSerbS/MAD-MUMIA/releases/download/V2.1/MAD_MUMIA.zip">Baixar jogo</a>
-            </div>
             <div class="github-btn">
                 <i class="fa-brands fa-github"></i>
                 <a href="https://github.com/SSerbS/MAD-MUMIA.git" >Acesse o repositório do projeto</a>
             </div>
+            <div class="download-btn">
+                <i class="fa-solid fa-download"></i>
+                <a href="https://github.com/SSerbS/MAD-MUMIA/releases/download/V2.1/MAD_MUMIA.zip">? Baixar jogo</a>
+            </div>
+            <div class="info_dowload_btn" id="pop_up_btn">
+                <i class="show_pu"></i>
+                <a href="">? como instalar...</a>
+            </div>
         </div>
     </main>
+    <script src="script_card.js"></script>
 </body>
 </html>
     

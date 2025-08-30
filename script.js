@@ -2,17 +2,6 @@
 const campoBusca = document.getElementById("busca");
 const cards = document.querySelectorAll(".card");
 
-// Adiciona efeito de destaque no hover
-cards.forEach(card => {
-  card.addEventListener("mouseenter", function() {
-    card.style.transform = "scale(1.05)";
-    card.style.transition = "transform 0.3s ease";
-  });
-
-  card.addEventListener("mouseleave", function() {
-    card.style.transform = "scale(1)";
-  });
-});
 
 // Detecta quando o usuário digita algo
 campoBusca.addEventListener("input", function() {
@@ -30,3 +19,4 @@ campoBusca.addEventListener("input", function() {
     }
   });
 });
+

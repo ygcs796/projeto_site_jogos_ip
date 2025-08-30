@@ -1,8 +1,8 @@
 /* Estilo global da página */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #E0E1E0; /* Cinza Claro */
-  color: #231F20; /* Preto */
+  background-color: #00011c; /* Cinza Claro */
+  color: white; /* Preto */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -10,10 +10,12 @@ body {
 
 /* Container principal do jogo */
 #game-container {
-  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
   margin: 50px auto;
   padding: 30px;
-  background-color: #FFFFFF; /* Branco */
+  background-color: #0c0222; /* Branco */
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.5);
 }
@@ -23,38 +25,44 @@ body {
   font-size: 2.5em;
   margin-bottom: 20px;
   text-align: center;
-  color: black; /* Vermelho */
+  color: rgb(255, 255, 255); /* Vermelho */
+  transition: 0.4s;
+}
+
+#game-container h1:hover{
+  font-size: 3em;
 }
 
 /* Imagem do jogo */
 #game-container img {
   display: block;
-  margin: 0 auto 30px auto;
-  max-width: 100%;
-  border-radius: 10px;
+  margin: 0 auto 5% auto;
+  max-width: 70%;
+  border-radius: 5%;
   box-shadow: 0 5px 15px rgba(0,0,0,0.4);
   transition: transform 0.3s;
 }
 
-#game-container img:hover {
-  transform: scale(1.05);
-}
-
 #game-container .info-and-play-section {
   display: flex;
+  margin-left: 7%;
+  justify-content: space-evenly;
 }
 
 /* Seções de descrição e tutorial */
 #game-container section {
-  margin-bottom: 30px;
-  padding: 20px;
-  background-color: #ff3e3e; /* Vermelho Escuro */
-  border-radius: 10px;
+  width: 40%;
+  height: auto ;
+  margin-bottom: 6%;
+  padding: 3%;
+  background-color: #290d76; 
+  border-radius: 5%;
   text-align: justify;
+  white-space: normal;
+  transition: 0.2s;
 }
-
-#game-container #how-to-play-section {
-  margin-left: 45px;
+#game-container section:hover{
+  background-color: rgb(38, 22, 142);
 }
 
 #game-container section h2 {
@@ -67,24 +75,66 @@ body {
 #game-container section p {
   font-size: 1.1em;
   color: #FFFFFF; /* Branco */
-  width: 22em;
+}
+
+#tela_escura{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.622);
+  height: 100vh;
+  width: 100vw;
+
+}
+#pop_up {
+  align-self: center;
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #2e0a4a;
+  color: white;
+  margin-top: 20px;
+  position: fixed;
+  z-index: 999;
+  transition: all 2s;
+}
+#pop_up .x{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5%;
+  font-size: 100%;
+}
+
+#pop_up .x:hover{
+  color: red;
+
 }
 
 #game-container section #lista-ordenada {
   display: flex;
 }
 
+
 #game-container section #segunda-parte-lista {
   margin-left: 4em;
 }
 
+
 #game-container .buttons-field {
   display: flex;
+  justify-content: space-around;
 }
 
 #game-container .buttons-field a {
   color: white;  
   text-decoration: none;
+  
 }
 
 /* Botão de download */
@@ -98,7 +148,7 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   color: #FFFFFF; /* Branco */
-  background-color: #3498db; /* Vermelho */
+  background-color: #6634db; /* Vermelho */
   border: none;
   border-radius: 50px;
   text-decoration: none;
@@ -127,7 +177,7 @@ body {
   font-size: 1em;
   font-weight: bold;
   color: #FFFFFF; /* Branco */
-  background-color: #3498db; /* Vermelho */
+  background-color: #6634db; /* Vermelho */
   border: none;
   border-radius: 50px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -145,4 +195,32 @@ body {
   margin-right: 10px;
   font-size: 2em;
   width: 50px;
+}
+#game-container .info_dowload_btn {
+  display: block;
+  align-content: center;
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #FFFFFF; /* Branco */
+  background-color: #6634db; /* Vermelho */
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#game-container .info_dowload_btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: 0.5s;
+  background-color: rgb(58, 18, 104);
+}
+
+#game-container .info_dowload_btn i {
+  margin-right: 05px;
 }

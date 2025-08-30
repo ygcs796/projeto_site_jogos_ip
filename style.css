@@ -7,7 +7,7 @@
 /* Estilo geral da página */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f2f5;
+  background-color: #00011c;
   text-align: center;
   margin: 0;
   padding: 20px;
@@ -24,7 +24,7 @@ body {
   margin-bottom: 10px;
   border-radius: 20px;
   box-shadow: 0px 8px 8px rgba(0,0,0,0.4);
-  background-color: #ff3e3e;
+  background-color: #a20505;
 }
 
 .cabecalho #logomarcacin {
@@ -34,28 +34,36 @@ body {
 }
 
 .cabecalho #titulo {
+  font-size: 1.1vw;
   width: 30%;
   color: #f0f2f5;
 }
 
 /* Título principal */
-.cabecalho #titulo h1 {
+.cabecalho #titulo .titulo {
   margin-bottom: 10px;
 }
 
 .cabecalho #busca {
+  background-color: rgb(32, 32, 32);
   position: absolute;
-  right: 20px;
-  width: 18%;
+  right: 5%;
+  width: 10%;
   padding: 10px;
   margin: 20px;
-  border: 2px solid #3498db;
+  border: 1px solid #d31f1f;
   border-radius: 8px;
   font-size: 16px;
+  transition: 0.3s ease-in-out;
+  color: white;;
+
+}
+.cabecalho #busca:hover{
+  border: 1px solid rgb(255, 255, 255);
 }
 
-body #divisor {
-  background-color: #ff3e3e;
+#divisor {
+  background-color: #bc0808;
   width: 9em;
   border-radius: 8px;
   margin-top: 20px;
@@ -65,34 +73,61 @@ body #divisor {
   font-size: 23px;
   color: #f0f2f5;
 }
+#conteudo{
+  margin-top: 4%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 5%;
+  margin-right: 4%;
+}
 
 /* Estilo dos cards */
 .card {
-  display: inline-block;
-  width: 250px;
-  background: white;
-  margin: 15px;
-  padding: 15px;
-  border: 2px solid #ff3e3e;
+  display: flex;
+  flex-direction: column;
+  width: 70%;    /* deixa o grid controlar a largura */
+  margin: 15px 0;
+  padding: 5px;
+  color: white;
+  border: 2px solid #3a3838;
   border-radius: 12px;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+              rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transition: all 0.2s ease-out;
+}
+
+.card:hover{
+  background: linear-gradient(134deg, #0a0f1c, #eb2525a4);
+  transform: scale(1.1);
+  border-color: rgb(162, 2, 2);
+  
+}
+.card img{
+  width: 100%;
+  height:60%;
+  
 }
 
 /* Links transformados em botões */
 .card a {
+  align-self: center;
   display: inline-block;
   margin: 8px;
-  padding: 10px 20px;
+  padding: 2% 20%;
+  width: 40%;
   text-decoration: none;
-  background-color: #3498db;
+  background-color: green;
   color: white;
   border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 255, 55, 0.105) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   transition: background-color 0.3s ease;
+
 }
 
 .card a:hover {
-  background-color: green;
+  background-color: rgb(3, 162, 3);
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .card a i {
