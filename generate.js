@@ -11,7 +11,7 @@ for (const id in games) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pagina_style.css">
     <script src="https://kit.fontawesome.com/8d7727039d.js" crossorigin="anonymous"></script>
-    <title>MAD MUMIA</title>
+    <title>${jogo.nome}</title>
 </head>
 <body>
     <main id="game-container">
@@ -29,7 +29,9 @@ for (const id in games) {
         </div>
         <div id="tela_escura"></div>
         <section id="pop_up">
-            <p class="x">X</p>
+            <div id="fechar_btn">
+                <p>FECHAR</p>
+            </div>
             <h2>Como baixar o jogo</h2>
             <div id='lista-ordenada'>
                 <div>
@@ -57,17 +59,17 @@ for (const id in games) {
             </div>
         </section>
         <div class="buttons-field">
-            <div class="github-btn">
-                <i class="fa-brands fa-github"></i>
-                <a href="${jogo.link_github}" >Acesse o repositório do projeto</a>
+            <div class="info_dowload_btn" id="pop_up_btn">
+                <i class="show_pu"></i>
+                <a style="font-size: 79%;">Como instalar o jogo?</a>
             </div>
             <div class="download-btn">
                 <i class="fa-solid fa-download"></i>
-                <a href="${jogo.download}">🎮 Baixar jogo</a>
+                <a href="${jogo.download}">Baixar jogo</a>
             </div>
-            <div class="info_dowload_btn" id="pop_up_btn">
-                <i class="show_pu"></i>
-                <a href="">? como instalar...</a>
+            <div class="github-btn">
+                <i class="fa-brands fa-github"></i>
+                <a href="${jogo.link_github}" >Acesse o repositório do projeto</a>
             </div>
         </div>
     </main>
@@ -146,3 +148,8 @@ console.log("Páginas geradas com sucesso!");
 </body>
 </html> 
     ` ;*/
+
+/*
+
+
+*/

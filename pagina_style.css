@@ -29,10 +29,6 @@ body {
   transition: 0.4s;
 }
 
-#game-container h1:hover{
-  font-size: 3em;
-}
-
 /* Imagem do jogo */
 #game-container img {
   display: block;
@@ -45,14 +41,14 @@ body {
 
 #game-container .info-and-play-section {
   display: flex;
-  margin-left: 7%;
+  padding: 0% 7%;
   justify-content: space-evenly;
 }
 
 /* Seções de descrição e tutorial */
 #game-container section {
   width: 40%;
-  height: auto ;
+  height: auto;
   margin-bottom: 6%;
   padding: 3%;
   background-color: #290d76; 
@@ -103,23 +99,31 @@ body {
   z-index: 999;
   transition: all 2s;
 }
-#pop_up .x{
+#pop_up #fechar_btn{
   position: absolute;
-  right: 0;
-  top: 0;
-  padding: 5%;
+  right: 1%;
+  top: 3%;
+  padding: 0% 1%;
   font-size: 100%;
+  border-radius: 10px;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  transition: .2s;
 }
 
-#pop_up .x:hover{
-  color: red;
+#pop_up #fechar_btn:hover{
+  background-color: green;
+}
 
+#pop_up #fechar_btn p {
+  font-weight: bold;
+  margin: 5px;
 }
 
 #game-container section #lista-ordenada {
   display: flex;
 }
-
 
 #game-container section #segunda-parte-lista {
   margin-left: 4em;
@@ -134,7 +138,7 @@ body {
 #game-container .buttons-field a {
   color: white;  
   text-decoration: none;
-  
+  cursor: pointer;
 }
 
 /* Botão de download */

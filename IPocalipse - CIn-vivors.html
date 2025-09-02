@@ -9,7 +9,7 @@
 </head>
 <body>
     <main id="game-container">
-        <h1>IPocalipse: CIn-vivors</h1>
+        <h1 class="name_game">IPocalipse: CIn-vivors</h1>
         <img src="assets/images/cin-vivors.png" alt="Imagem do jogo">
         <div class='info-and-play-section'>
             <section>
@@ -21,7 +21,11 @@
                 <p>Use [W], [A], [S], [D] para mover o personagem. Os ataques são automáticos! Sobreviva às hordas de bugs e colete experiência para escolher novos upgrades e ficar mais forte.</p>
             </section>
         </div>
-        <section>
+        <div id="tela_escura"></div>
+        <section id="pop_up">
+            <div id="fechar_btn">
+                <p>FECHAR</p>
+            </div>
             <h2>Como baixar o jogo</h2>
             <div id='lista-ordenada'>
                 <div>
@@ -49,6 +53,10 @@
             </div>
         </section>
         <div class="buttons-field">
+            <div class="info_dowload_btn" id="pop_up_btn">
+                <i class="show_pu"></i>
+                <a style="font-size: 79%;">Como instalar o jogo?</a>
+            </div>
             <div class="download-btn">
                 <i class="fa-solid fa-download"></i>
                 <a href="https://github.com/rafaelvlt/ip-projeto-final/releases/download/versoes/ipocalipse-cin-vivors-1.0.zip">Baixar jogo</a>
@@ -59,6 +67,6 @@
             </div>
         </div>
     </main>
+    <script src="script_card.js"></script>
 </body>
 </html>
-    
