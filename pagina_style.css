@@ -1,0 +1,339 @@
+/* Estilo global da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #E0E1E0; /* Cinza Claro */
+  color: white; /* Preto */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  transition: .5s;
+}
+
+/* configurações para o modo escuro */
+#trilho {
+    background-color: #FFB92B;
+    width: 350px;
+    height: 150px;
+    border-radius: 150px;
+    cursor: pointer;
+    transform: scale(.40);
+    position: fixed;
+    top: -2vh;
+    right: -3vw;
+    z-index: 999;
+
+}
+
+#trilho #indicador {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+    display: flex;
+    z-index: 999;
+}
+
+#trilho #indicador img {
+    position: absolute;  
+}
+
+#trilho #indicador #sol{
+    transform: scale(.8);
+}
+
+#trilho #indicador #lua {
+    display: none;
+}
+
+body.dark {
+    background-color: #00011c;
+}
+
+body.dark #game-container {
+  background-color: #0c0222; /* Branco */
+}
+
+body.dark #game-container h1 {
+  color: rgb(255, 255, 255); /* Vermelho */
+}
+
+body.dark #trilho {
+    background-color: #071568;
+}
+
+body.dark #trilho #indicador {
+    left: 200px;
+}
+
+body.dark #trilho #indicador #sol {
+    display: none;
+}
+
+body.dark #trilho #indicador #lua {
+    display: inline-flex;
+}
+
+body.dark #game-container section {
+    background-color: #290d76; 
+}
+
+body.dark #game-container .info_dowload_btn {
+  background-color: #6634db;
+}
+
+body.dark #game-container .download-btn {
+  background-color: #6634db;
+}
+
+body.dark #game-container .github-btn {
+  background-color: #6634db;
+} 
+
+body.dark #game-container .info_dowload_btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: 0.5s;
+  background-color: rgb(58, 18, 104);
+}
+
+body.dark #game-container .github-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: 0.5s;
+  background-color: #171515;
+}
+
+body.dark #game-container .download-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: 0.5s;
+  background-color: green;
+}
+
+/* Container principal do jogo */
+#game-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #FFFFFF; /* Branco */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Título do jogo */
+#game-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+  transition: 0.4s;
+}
+
+/* Imagem do jogo */
+#game-container img {
+  display: block;
+  margin: 0 auto 5% auto;
+  max-width: 70%;
+  border-radius: 5%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  transition: transform 0.3s;
+}
+
+#game-container .info-and-play-section {
+  display: flex;
+  padding: 0% 7%;
+  justify-content: space-evenly;
+}
+
+/* Seções de descrição e tutorial */
+#game-container section {
+  width: 40%;
+  height: auto;
+  margin-bottom: 6%;
+  padding: 3%;
+  background-color: #ff3e3e;
+  border-radius: 5%;
+  text-align: justify;
+  white-space: normal;
+  transition: 0.2s;
+}
+#game-container section:hover{
+  background-color: rgb(38, 22, 142);
+  background-color: #f12121;
+}
+
+#game-container section h2 {
+  font-size: 1.8em;
+  margin: 0px;
+  color: #FFFFFF; /* Cinza Claro */
+}
+
+/* Texto das seções */
+#game-container section p {
+  font-size: 1.1em;
+  color: #FFFFFF; /* Branco */
+}
+
+#tela_escura{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.622);
+  height: 100vh;
+  width: 100vw;
+
+}
+
+#pop_up {
+  align-self: center;
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #2e0a4a;
+  color: white;
+  margin-top: 20px;
+  position: fixed;
+  z-index: 999;
+  transition: all 2s;
+}
+
+#pop_up #fechar_btn{
+  position: absolute;
+  right: 1%;
+  top: 3%;
+  padding: 0% 1%;
+  font-size: 100%;
+  border-radius: 10px;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  transition: .2s;
+}
+
+#pop_up #fechar_btn:hover{
+  background-color: green;
+}
+
+#pop_up #fechar_btn p {
+  font-weight: bold;
+  margin: 5px;
+}
+
+#game-container section #lista-ordenada {
+  display: flex;
+}
+
+#game-container section #segunda-parte-lista {
+  margin-left: 4em;
+}
+
+
+#game-container .buttons-field {
+  display: flex;
+  justify-content: space-around;
+}
+
+#game-container .buttons-field a {
+  color: white;  
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Botão de download */
+#game-container .download-btn {
+  display: block;
+  align-content: center;
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #FFFFFF; /* Branco */
+  background-color: #3498db; /* Vermelho */
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#game-container .download-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: 0.5s;
+  background-color: green;
+}
+
+#game-container .download-btn i {
+  margin-right: 05px;
+}
+
+#game-container .github-btn {
+  display: flex;
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: #FFFFFF; /* Branco */
+  background-color: #3498db; /* Vermelho */
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#game-container .github-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: 0.5s;
+  background-color: #171515;
+}
+
+#game-container .github-btn i {
+  margin-right: 10px;
+  font-size: 2em;
+  width: 50px;
+}
+#game-container .info_dowload_btn {
+  display: block;
+  align-content: center;
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #FFFFFF; /* Branco */
+  background-color: #3498db; /* Vermelho */
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#game-container .info_dowload_btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: 0.5s;
+  background-color: #1471af;
+}
+
+#game-container .info_dowload_btn i {
+  margin-right: 05px;
+}

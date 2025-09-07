@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    transition: .5s;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+#trilho {
+    background-color: #FFB92B;
+    width: 350px;
+    height: 150px;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+#trilho #indicador {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+    display: flex;
+}
+
+#trilho #indicador img {
+    position: absolute;  
+}
+
+#trilho #indicador #sol{
+    transform: scale(.8);
+}
+
+#trilho #indicador #lua {
+    display: none;
+}
+
+body.dark {
+    background-color: #000;
+}
+
+body.dark h1 {
+    color: white;
+}
+
+body.dark #trilho {
+    background-color: #071568;
+}
+
+body.dark #trilho #indicador {
+    left: 200px;
+}
+
+body.dark #trilho #indicador #sol {
+    display: none;
+}
+
+body.dark #trilho #indicador #lua {
+    display: inline-flex;
+}

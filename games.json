@@ -1,0 +1,42 @@
+{
+  "Pychaves": {
+    "nome": "Pychaves",
+    "imagem": "assets/images/tela_principal_pychaves.png",
+    "descricao": "Esse jogo foi criado pelos estudantes Alvaro Alexandre, João Gabriel, Luan Gabriel, Mel Zion, Tiago do Nascimento e Yuri Gabryel.",
+    "tutorial": "Use as setas para mover o chaves.",
+    "download": "https://github.com/ygcs796/projeto_site_jogos_ip/releases/download/v1.0/pychaves.zip",
+    "link_github": "https://github.com/mzckawa/pychaves"
+  },
+  "Byte in Space": {
+    "nome": "Byte in Space",
+    "imagem": "assets/images/tela_principal_byte-in-space.jpeg",
+    "descricao": "Esse jogo foi criado para disciplina Introdução à Programação oferecida pelo Cin-UFPE (Centro de Informática da Universidade Federal de Pernambuco), pelos estudantes: Gustavo Charamba, Lucas Eduardo Brito, Luiz Gabriel Santana, Luiz Miguel de Souza, Miquéias Santos e Rafael Silva.",
+    "tutorial": "Use [↑]/[W], [↓]/[S], [←]/[A], [→]/[D] para mover a nave do Byte. [Z] para atirar. Pegue os colecionáveis para obter poderes temporários. Marque pontos acertandos os gatos. Não morra!",
+    "download": "https://github.com/luizmiguelbarbosa/byte_in_space/releases/download/Vers%C3%A3oEntregue/Byte.in.Space.zip",
+    "link_github": "https://github.com/luizmiguelbarbosa/byte_in_space.git"
+  },
+  "IPocalipse - CIn-vivors": {
+    "nome": "IPocalipse: CIn-vivors",
+    "imagem": "assets/images/cin-vivors.png",
+    "descricao": "IPocalipse: CIn-vivors é um jogo de ação e sobrevivência no estilo bullet heaven, criado para a disciplina de Introdução à Programação oferecida pelo Cin-UFPE. Nele, um estudante deve lutar contra hordas de bugs, erros e desafios do semestre para sobreviver até a prova final.<br><br><strong>Desenvolvido por:</strong> Rafael Barbosa, Eric Santiago, Caio Amarante, Pedro Albuquerque, Kraus Junior e Álvaro Lima.",
+    "tutorial": "Use [W], [A], [S], [D] para mover o personagem. Os ataques são automáticos! Sobreviva às hordas de bugs e colete experiência para escolher novos upgrades e ficar mais forte.",
+    "download": "https://github.com/rafaelvlt/ip-projeto-final/releases/download/versoes/ipocalipse-cin-vivors-1.0.zip",
+    "link_github": "https://github.com/rafaelvlt/ip-projeto-final"
+  },
+  "MAD_MUMIA": {
+    "nome": "MAD MUMIA",
+    "imagem": "assets/images/imagem_menu_MADMUMIA.jpg",
+    "descricao": "MAD MUMIA é um jogo sobrevivência no deserto, criado por um grupo de calouros de ciência da computação no período de 2025.1. Nele, o jogador principal precisa encontrar pilhas no deserto para conseguir ligar o rádio de pedir ajuda. Porém, ao mesmo tempo, ele é perseguido por criaturas místicas, que despertaram de seus túmulos: as Múmias. Felizmente, nosso protagonista é um soldado treinado para se defender, e sempre anda com sua arma de confiança. <strong>Todos os responsáveis pelo projeto estão no github.</strong>",
+    "tutorial": "Use [W], [A], [S], [D] para mover o personagem. Controle a direção da mira e atire com o botão esquerdo do mouse. Corações para regenerar a vida, munições para recarregar a arma e as pilhas do rádio estarão espalhadas pelo mapa.",
+    "download": "https://github.com/SSerbS/MAD-MUMIA/releases/download/V2.1/MAD_MUMIA.zip",
+    "link_github": "https://github.com/SSerbS/MAD-MUMIA.git"
+  },
+  "Chrono CIn": {
+    "nome": "Chrono CIn",
+    "imagem": "assets/images/chrono-cin.png",
+    "descricao": "Chrono CIn é um jogo duplo de plataforma e Space Shooter ambientado num mundo futurista ao qual um jovem aluno do CIn precisou se trasportar para obter um item valioso em uma de suas pesquisas acadêmicas.",
+    "tutorial": "Nas duas fases, use [W] [A] [S] [D] para movimentar o personagem principal / Nave espacial e [SPACE] para atacar.",
+    "download": "https://github.com/Ian-Cerqueira/projeto-ip/releases/download/v1.0/game.zip",
+    "link_github": "https://github.com/Ian-Cerqueira/projeto-ip"
+  }
+}

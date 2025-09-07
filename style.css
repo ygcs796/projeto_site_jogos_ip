@@ -1,9 +1,230 @@
-
-
-#logomarcacinufpe {
-    width: 20%;
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
-#tela_principal_pychaves {
-    width: 70%;
+/* Estilo geral da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(240, 240, 240);  
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  transition: .5s;
+}
+
+/* editando os elementos do 'cabeçalho' da pagina */
+.cabecalho {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 110px;
+  padding: 30px 0;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 8px rgba(0,0,0,0.4);
+  background: linear-gradient(
+  320deg, 
+  #a20505 85%,   /* vermelho dominante */
+  #8d0707 50%   /* verde bem no finalzinho */
+);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+
+.cabecalho #logomarcacin {
+  width: 20%;
+  position: absolute;
+  left: 40px; 
+}
+
+.cabecalho #titulo {
+  font-size: 1.1vw;
+  width: 30%;
+  color: #f0f2f5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Título principal */
+.cabecalho #titulo #nome_grande {
+  margin-bottom: 10px;
+}
+
+/* configurações para o modo escuro */
+#trilho {
+    background-color: #FFB92B;
+    width: 350px;
+    height: 150px;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+    transform: scale(.25);
+    position: absolute;
+    top: -2vh;
+    right: -6vw;
+    z-index: 999;
+
+}
+
+#trilho #indicador {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+    display: flex;
+    z-index: 999;
+}
+
+#trilho #indicador img {
+    position: absolute;  
+}
+
+#trilho #indicador #sol{
+    transform: scale(.8);
+}
+
+#trilho #indicador #lua {
+    display: none;
+}
+
+body.dark {
+    background-color: #00011c;
+}
+
+body.dark .cabecalho {
+    background: linear-gradient(
+  320deg, 
+  #6634db 85%,   /* vermelho dominante */
+  #521bd4 50%   /* verde bem no finalzinho */
+);
+}
+
+body.dark #trilho {
+    background-color: #071568;
+}
+
+body.dark #trilho #indicador {
+    left: 200px;
+}
+
+body.dark #trilho #indicador #sol {
+    display: none;
+}
+
+body.dark #trilho #indicador #lua {
+    display: inline-flex;
+}
+
+body.dark .divisor {
+  background-color: #6634db;
+}
+
+body.dark .card h2 {
+  color: white;
+}
+
+body.dark .card:hover{
+  background: linear-gradient(134deg, #0a0f1c, #eb2525a4);
+  transform: scale(1.1);
+  border-color: rgb(162, 2, 2);  
+}
+
+.cabecalho #busca {
+  background-color: rgb(32, 32, 32);
+  position: absolute;
+  right: 12%;
+  width: 12%;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  color: white;;
+
+}
+.cabecalho #busca:hover{
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.divisor {
+  background-color: #bc0808;
+  width: 9em;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  font-size: 23px;
+  color: #f0f2f5;
+}
+.conteudo{
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 5%;
+  margin-right: 4%;
+}
+
+/* Estilo dos cards */
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 70%;    /* deixa o grid controlar a largura */
+  margin: 15px 0;
+  padding: 5px;
+  color: black;
+  border: 2px solid #3a3838;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+              rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transition: all 0.2s ease-out;
+}
+
+.card:hover{
+  background: linear-gradient(134deg, #fff, #eb2525a4);
+  transform: scale(1.1);
+  border-color: rgb(162, 2, 2);
+  
+}
+
+.card img{
+  width: 100%;
+  height:60%;
+  
+}
+
+/* Links transformados em botões */
+.card a {
+  align-self: center;
+  display: inline-block;
+  margin: 8px;
+  padding: 2% 20%;
+  width: 40%;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 255, 55, 0.105) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  transition: background-color 0.3s ease;
+
+}
+
+.card a:hover {
+  background-color: rgb(3, 162, 3);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card a i {
+  margin-right: 10px;
 }

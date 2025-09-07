@@ -1,41 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/8d7727039d.js" crossorigin="anonymous"></script>
-    <title>Jogos de IP - CIn UFPE</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Jogos da Turma</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/8d7727039d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <img src="assets/images/logomarca_cin_ufpe_format_vertical.png" alt="" id="logomarcacinufpe">
-    
-    <h1>JOGOS DO COMPONENTE DE "INTRODUÇÃO À PROGRAMAÇÃO"</h1>
-
-    <div class="conteudo"></div>
-
-    <h2>PYCHAVES</h2>
-
-    <p>
-        Esse jogo foi criado por 5 alunos da turma de Engenharia da Computação 2025.1: 
-        Alvaro Alexandre, João Gabriel, Luan Gabriel, Mel Zion, Tiago do Nascimento e Yuri Gabryel.
-    </p>
-
-    <h3>TUTORIAL</h3>
-
-    <p>
-        Tô pensando em qual texto colocar aqui
-    </p>
-
-    <img src="assets/images/tela_principal_pychaves.png" alt="" id="tela_principal_pychaves">
-
-    <div class="play-download-field">
-        
-        <p>
-            <a href="http://">Jogar</a> <i class="fa-solid fa-gamepad"></i> ou <a href="http://">Baixar</a><i class="fa-solid fa-download"></i>
-        </p>
-        
+  
+    <div class="cabecalho">
+        <img src="assets/images/logomarca_cin_ufpe_format_vertical.png" alt="" id="logomarcacin">
+        <div id="titulo">
+            <h1 id="nome_grande">Jogos/projetos finais de IP</h1>
+            <h2 id="subtitulo">Escolha o jogo que te interessar! <br>🎮</h2>
+        </div>
+        <div id="trilho">
+            <div id="indicador">
+                <img src="assets/images/sun_icon.png" alt="" srcset="" width="150px" id="sol">
+                <img src="assets/images/moon_icon.png" alt="" srcset="" width="150px" id="lua">
+            </div>
+        </div>
+        <!-- Caixa de busca -->
+        <input type="text" id="busca" placeholder="🔎 Buscar jogo...">
     </div>
-</body>
-</html>
+
+    <div id="all">
+        <h2 class="divisor">
+        PERÍODO 2025.1
+        </h2>
+
+        <div class="conteudo">
+            <!-- Card 1 -->
+            <div class="card">
+            <img src="assets/images/tela_principal_pychaves.png" alt="Pychaves"">
+            <br>
+            <h2 class="titulo_card">Pychaves</h2>
+            <a href="Pychaves.html"><i class="fa-solid fa-circle-info"></i>Ver mais</a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="assets/images/tela_principal_byte-in-space.jpeg" alt="Byte in Space">
+                <br>
+                <h2 class="titulo_card">Byte in Space</h2>
+                <a href="Byte in Space.html"><i class="fa-solid fa-circle-info"></i>Ver mais</a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="assets/images/cin-vivors.png" alt="CIn-vivors">
+                <br>
+                <h2 class="titulo_card">IP-ocalipse: Cin-vivors</h2>
+                <a href="IPocalipse - CIn-vivors.html"><i class="fa-solid fa-circle-info"></i>Ver mais</a>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="assets/images/imagem_menu_MADMUMIA.jpg" alt="Mad Mumia">
+                <br>
+                <h2 class="titulo_card">Mad Mumia</h2>
+                <a href="MAD_MUMIA.html"><i class="fa-solid fa-circle-info"></i>Ver mais</a>
+            </div>
+
+            
+        </div>
+
+        <h2 class="divisor">
+        PERÍODO 2024.2
+        </h2>
+
+        <div class="conteudo">
+            <!-- Card 5 -->
+            <div class="card">
+            <img src="assets/images/chrono-cin.png" alt="Chrono CIn">
+            <br>
+            <h2>Chrono CIn</h2>
+            <a href="Chrono CIn.html"><i class="fa-solid fa-circle-info"></i>Ver mais</a>
+            </div>
+        </div>
+
+    </div>
+
+        
+    <script src="script.js"></script>
+    <script src="dark_mode.js"></script>
+    </body>
+    </html>
+  
