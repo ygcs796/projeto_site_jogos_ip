@@ -31,9 +31,9 @@ body {
   #a20505 85%,   /* vermelho dominante */
   #8d0707 50%   /* verde bem no finalzinho */
 );
-position: sticky;
-top: 0;
-z-index: 10;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 
 }
 
@@ -47,11 +47,12 @@ z-index: 10;
   font-size: 1.1vw;
   width: 30%;
   color: #f0f2f5;
-  margin-left: 18%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Título principal */
-.cabecalho #titulo .titulo {
+.cabecalho #titulo #nome_grande {
   margin-bottom: 10px;
 }
 
@@ -63,7 +64,7 @@ z-index: 10;
     border-radius: 150px;
     position: relative;
     cursor: pointer;
-    transform: scale(.14);
+    transform: scale(.25);
     position: absolute;
     top: -2vh;
     right: -6vw;
@@ -79,7 +80,7 @@ z-index: 10;
     transform: scale(.9);
     position: absolute;
     left: 0;
-    transition: .1s;
+    transition: .5s;
     display: flex;
     z-index: 999;
 }
@@ -100,8 +101,12 @@ body.dark {
     background-color: #00011c;
 }
 
-body.dark .cabecalho #titulo {
-  color: #00011c;
+body.dark .cabecalho {
+    background: linear-gradient(
+  320deg, 
+  #6634db 85%,   /* vermelho dominante */
+  #521bd4 50%   /* verde bem no finalzinho */
+);
 }
 
 body.dark #trilho {
@@ -121,7 +126,7 @@ body.dark #trilho #indicador #lua {
 }
 
 body.dark .divisor {
-  color: white;
+  background-color: #6634db;
 }
 
 body.dark .card h2 {
@@ -131,22 +136,16 @@ body.dark .card h2 {
 body.dark .card:hover{
   background: linear-gradient(134deg, #0a0f1c, #eb2525a4);
   transform: scale(1.1);
-  border-color: rgb(162, 2, 2);
-  
+  border-color: rgb(162, 2, 2);  
 }
-body.dark h1, body.dark h2, body.dark p{
-  color: white;
-}
-
 
 .cabecalho #busca {
   background-color: rgb(32, 32, 32);
   position: absolute;
-  right: 5%;
-  width: 10%;
+  right: 12%;
+  width: 12%;
   padding: 10px;
   margin: 20px;
-  border: 1px solid #d31f1f;
   border-radius: 8px;
   font-size: 16px;
   transition: 0.3s ease-in-out;

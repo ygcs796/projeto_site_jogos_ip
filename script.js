@@ -2,10 +2,6 @@
 const campoBusca = document.getElementById("busca");
 const cards = document.querySelectorAll(".card");
 
-// elementos necessários para o modo escuro
-const trilho = document.getElementById('trilho')
-const body = document.querySelector('body')
-
 // Detecta quando o usuário digita algo
 campoBusca.addEventListener("input", function() {
   const texto = campoBusca.value.toLowerCase(); // pega o que foi digitado
@@ -22,7 +18,3 @@ campoBusca.addEventListener("input", function() {
     }
   });
 });
-
-trilho.addEventListener('click', () => {
-    body.classList.toggle('dark')
-})

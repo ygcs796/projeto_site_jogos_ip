@@ -14,6 +14,12 @@ for (const id in games) {
     <title>${jogo.nome}</title>
 </head>
 <body>
+    <div id="trilho">
+        <div id="indicador">
+            <img src="assets/images/sun_icon.png" alt="" srcset="" width="150px" id="sol">
+            <img src="assets/images/moon_icon.png" alt="" srcset="" width="150px" id="lua">
+        </div>
+    </div>
     <main id="game-container">
         <h1 class="name_game">${jogo.nome}</h1>
         <img src="${jogo.imagem}" alt="Imagem do jogo">
@@ -74,6 +80,7 @@ for (const id in games) {
         </div>
     </main>
     <script src="script_card.js"></script>
+    <script src="dark_mode.js"></script>
 </body>
 </html>`;
 
