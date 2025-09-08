@@ -2,8 +2,8 @@
   "Pychaves": {
     "nome": "Pychaves",
     "imagem": "assets/images/tela_principal_pychaves.png",
-    "descricao": "Esse jogo foi criado pelos estudantes Alvaro Alexandre, João Gabriel, Luan Gabriel, Mel Zion, Tiago do Nascimento e Yuri Gabryel.",
-    "tutorial": "Use as setas para mover o chaves.",
+    "descricao": "Esse jogo foi criado pelos estudantes Alvaro Alexandre, João Gabriel, Luan Gabriel, Mel Zion, Tiago do Nascimento e Yuri Gabryel.<br> O objetivo do jogo é <b>AJUDAR CHAVES A PEGAR 7 PASSAGENS PARA IR PARA ACAPULCO</b>, mas há um problema: no trajeto, há muitas bolas quadradas que podem fazer o Chaves naufragar e a correnteza pode fazer ele cair do barril e se afogar!<br> Porém, há uma esperança: <b>a sua vida é representada por sanduíches de presunto</b>, você tem 3 vidas no máximo e pode coletar outros sanduíches no caminho para recuperar essa vida! E você também pode pegar <b>o suco de tamarindo</b> para que as bolas quadradas não te façam perder vida. Está pronto para ajudar o Chaves nessa aventura???",
+    "tutorial": "Use as setas ou as teclas [↑]/[W], [↓]/[S], [←]/[A], [→]/[D] para mover o Chaves nas ondas do mar. No menu e em outras telas que só tem textos, use as setas do teclado para selecionar opções diferentes (quando for possível) e aperte ENTER para confirmar a opção que você está selecionando.",
     "download": "https://github.com/ygcs796/projeto_site_jogos_ip/releases/download/v1.0/pychaves.zip",
     "link_github": "https://github.com/mzckawa/pychaves"
   },

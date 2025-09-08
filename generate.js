@@ -50,13 +50,16 @@ for (const id in games) {
                     <p>
                         <strong>3.</strong> Depois de baixar, encontre o arquivo <strong>.zip</strong>, clique com o botão direito e escolha "Extrair tudo..." para descompactar.
                     </p>
-                </div>
-                <div id='segunda-parte-lista'>
                     <p>
                         <strong>4.</strong> Uma nova pasta será criada. Abra a pasta e depois a subpasta com o mesmo nome do seu arquivo.
                     </p>
+                </div>
+                <div id='segunda-parte-lista'>
                     <p>
                         <strong>5.</strong> Procure por "main.exe" (ou um arquivo de tipo "aplicativo") e dê um duplo clique para iniciar.
+                    </p>
+                    <p>
+                        <strong>5.1.</strong> Caso apareça uma mensagem tipo "O Windows protegeu o computador", não se preocupe, isso acontece porque você está executando um arquivo de um fornecedor desconhecido (já que somos alunos de IP e não uma empresa). Procure por "Mais informações", aperte nele e depois aperte no botão "Executar assim mesmo". 
                     </p>
                     <p>
                         <strong>6.</strong> Aproveite o jogo! 😊

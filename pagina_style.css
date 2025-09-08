@@ -235,6 +235,7 @@ body.dark #game-container .download-btn:hover {
 }
 
 #game-container section #segunda-parte-lista {
+  width: 120%;
   margin-left: 4em;
 }
 

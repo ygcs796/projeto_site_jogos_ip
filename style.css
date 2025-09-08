@@ -105,7 +105,7 @@ body.dark .cabecalho {
     background: linear-gradient(
   320deg, 
   #6634db 85%,   /* vermelho dominante */
-  #521bd4 50%   /* verde bem no finalzinho */
+  #5b27d4 50%   /* verde bem no finalzinho */
 );
 }
 
@@ -171,7 +171,7 @@ body.dark .card:hover{
   margin-top: 1%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin-left: 5%;
+  margin-left: 10%;
   margin-right: 4%;
 }
 
