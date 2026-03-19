@@ -1,6 +1,6 @@
 # Site dos jogos de IP
 
-Esse repositório foi criado para guardar o site que disponibiliza para todos os jogos criados na disciplina de Introdução à Programação lecionada no CIn-UFPE.
+Esse repositório foi criado para guardar o site que disponibiliza os jogos criados na disciplina de Introdução à Programação lecionada no CIn-UFPE.
 
 No site, você pode ver alguns jogos criados na disciplina. Você também pode consultar mais informações sobre cada jogos além de conseguir baixar ele como um arquivo executável para a sua máquina particular (existe um tutorial no site para te ajudar a baixar) e acessar o repositório público de cada jogo.
 
